@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form making</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Client form</h1>
+    <p>Name: <input type="text" name="name" id="name"></p>
+
+    <fieldset>
+        <legend>Gender:</legend>
+        <p>Male<input type="radio" name="Gender" id="Male"> Female<input type="radio" name="Gender" id="Female"> Transgender<input type="radio" name="Gender" id="Transgender"></p>
+    </fieldset>
+
+    <p>Date of Birth: <input type="date" name="date" id="Date"></p>
+    <p>Email: <input type="email" name="email" id="Email"</p>
+    <p>Phone number: <input type="number" name="Phone" id="Phone"</p>
+    <p>Mobile number: <input type="number" name="Mobile" id="Mobile"></p>
+    <fieldset>
+        <legend>Company Details</legend>
+    <p>Company name: <input type="text" name="Company" id="Company"></p>
+    <p>Company address: <input type="text" name="C_address" id="C_address"></p>
+    <p>City:<input type="text" name="City" id="City"> State:<input type="text" name="State" id="State"> Pincode:<input type="number" name="Pincode" id="Pincode"> Region:<input type="text" name="Region" id="Region"></p>
+</fieldset>
+    <p>Department: 
+        <select>
+            <option>Select-the-option</option>
+            <option>Software enginner</option>
+            <option>Web developer</option>
+            <option>Data Analysis</option>
+            <option>Data Scientist</option>
+        </select name="Department" id="Department"></p>
+    <p>Resume: <input type="file" name="Resume" id="Resume"></p>
+    <fieldset>
+        <legend>Working Hours:</legend>
+    <p>Starting Time: <input type="time" name="Starting" id="Working Hours"> Ending Time: <input type="time" name="Ending" id="Working Hours"></p>
+    </fieldset>
+    <p>Working Days: <input type="text" name="work_days" id="work_days"></p>
+    <p>Additional Information: <textarea cols="30" rows="5" name="add_info" id="add_info"></textarea></p>
+    <button>Submit</button>
+
+</body>
+</html>
 
