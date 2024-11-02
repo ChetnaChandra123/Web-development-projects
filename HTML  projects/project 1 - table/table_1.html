@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,th,tr,td{
+            border-style: groove;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!---Table of contents-->
+    <table>
+        <thread>  <!--headings of the tables-->
+            <tr>
+                <th rowspan="2">Heading</th> 
+                <th>Students</th>
+                <th colspan="3">Details</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Roll Number</th>
+            </tr>
+            
+        </thread>
+        
+        <tbody>
+            <tr> <!--1st row-->
+                <td rowspan="4">Student List</td>
+                <td>1</td>
+                <td>Victor</td>
+                <td>Computer Science</td>
+                <td>12345</td>
+            </tr>
+            <tr> <!--2nd row-->
+                <td>2</td>
+                <td>William</td>
+                <td>Electronics</td>
+                <td>23456</td>
+            </tr>
+            <tr> <!--3rd row-->
+                <td>3</td>
+                <td>Harry</td>
+                <td>Electrical</td>
+                <td>34567</td>
+            </tr>
+            <tr> <!--4th row-->
+                <td>4</td>
+                <td>Rick</td>
+                <td>Civil</td>
+                <td>45678</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
