@@ -1,0 +1,17 @@
+.nav{
+    box-shadow:0px 1.5px 6px #000000;
+    padding: 18px;
+}
+
+.nav a{
+    padding:7.5% ;
+    font-size: 18px;         /*size of the font of the navbar*/
+    text-decoration: none;   /*to remove the underline from the links*/
+    color: rgb(163, 20, 192);
+
+}
+
+a:hover{
+    color: rgb(116, 43, 233);
+}
+
