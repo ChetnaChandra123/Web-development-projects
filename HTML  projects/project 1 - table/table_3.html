@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 3</title>
+    <style>
+        table,td,tr{
+            padding:15px;
+            border-collapse: collapse;
+            border:2px solid rgb(0, 0, 0);
+            text-align: center;
+        }
+        .green{
+            background-color: rgb(158, 236, 158);
+        }
+        .red{
+            background-color:pink;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2">Region</td>
+                <td rowspan="2">Manager</td>
+                <td class="green" rowspan="2">Coordinator</td>
+                <td rowspan="2">Local Rep</td>
+                <td rowspan="2">Secretary</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>North</td>
+                <td>Adam</td>
+                <td class="green">Beth</td>
+                <td>Callum</td>
+                <td>Diane</td>
+            </tr>
+            <tr>
+                <td>South West</td>
+                <td rowspan="5" colspan="3">Annie</td>
+                <td>Dodie</td>
+            </tr>
+            <tr>
+                <td class="red" rowspan="2">South East Upper</td>
+                <td class="red" rowspan="2">Dylan</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="2">South East Lower</td>
+                <td rowspan="2">Dahila</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>East</td>
+                <td>Ash</td>
+                <td class="green">Bill</td>
+                <td>Cecilia</td>
+                <td>Dave</td>
+            </tr>
+            <tr>
+                <td>West</td>
+                <td>Art</td>
+                <td class="green">Bruce</td>
+                <td>Colin</td>
+                <td>Danny</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
